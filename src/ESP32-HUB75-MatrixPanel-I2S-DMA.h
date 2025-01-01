@@ -254,10 +254,10 @@ struct HUB75_I2S_CFG
   enum clk_speed
   {
     HZ_8M = 8000000,
-    HZ_10M = 8000000,
-    HZ_15M = 16000000, // for compatability
+    HZ_10M = 10000000,
+    HZ_15M = 15000000, 
     HZ_16M = 16000000,
-    HZ_20M = 20000000 // for compatability  
+    HZ_20M = 20000000  
   };
 
   //
